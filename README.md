@@ -40,5 +40,18 @@ The hg bookmark is necessary to prevent problems as otherwise hg-git pushes to t
     cd ..;
 
 
-I also write a script to do this automatically. 
+# Usuage of b2g.py
+**b2g.py** is a script to ease the migration. You still need to install
+*mercurial*, *hg-git* and create *Github* repo manually.
+
+>
+    usage: b2g.py [-h] bb_url gh_url
+    convert bitbucket repo to github
+    positional arguments:
+      bb_url      bitbucket repo url
+      gh_url      github repo url
+    optional arguments:
+      -h, --help  show this help message and exit
+
+
 
